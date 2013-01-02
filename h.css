@@ -1,0 +1,52 @@
+/* setting WIDTH html and body */
+html, body { height: 100%;}
+
+div#page_wrap{ height: 100%; 
+	background-color: black;
+}
+
+/* header */
+header{
+    height: 25%;
+    margin-top: 5%;
+    background-color: red;
+}
+
+header div#logo{
+		height: 60%; 
+		background-color: white; 
+}
+
+header div#logo span{
+		font-size: 420%;
+		background-color: yellow;
+}
+
+header nav{
+		background-color: blue;
+		margin-top: 5%;
+}
+
+
+header nav ul li a{
+		margin-left: 4%;
+		margin-right: 4%;
+		float: left;
+		background-color: orange;
+}
+
+header nav ul li.first-child_list a{ margin-left: 0; }
+
+/* section of contents */
+section{
+    height: 60%;
+    background-color: red;
+}
+
+/* footer */
+footer{
+    height: 5%;
+    background-color: red;
+}
+
+footer span{height: 100%;}
